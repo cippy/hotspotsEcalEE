@@ -12,6 +12,8 @@ git remote add origin git@github.com:$YOUR_GITHUB_REPOSITORY/hotspotsEcalEE.git
 Now you can develop as you like, and commit to your own repository
 You can also open pull requests to other repositories if the project is used by many people
 
+For the moment this code does not really require CMSSW, so no need to compile with scram, but you need ROOT and python installed, so it is convenient to work from a release.
+
 # Usage
 ```
 python makeHotSpotStudy.py -o /path/to/web/page/
