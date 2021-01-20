@@ -9,11 +9,12 @@ git clone git@github.com:cippy/hotspotsEcalEE.git hotspotsEcalEE
 cd hotspotsEcalEE
 git remote add origin git@github.com:$YOUR_GITHUB_REPOSITORY/hotspotsEcalEE.git
 ```
-now you can develop as you like, and commit to your own repository
- you can also open pull requests to other repositories if the project is used by many people
+Now you can develop as you like, and commit to your own repository
+You can also open pull requests to other repositories if the project is used by many people
 
 # Usage
 ```
 python makeHotSpotStudy.py -o /path/to/web/page/
 ```
-
+where /path/to/web/page/ is the location where you want to store plots.
+Check for more options inside the script
